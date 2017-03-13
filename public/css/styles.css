@@ -1,0 +1,25 @@
+#nav {
+	background-color: grey;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 2px 5px 2px 5px;
+}
+
+
+body {
+	text-align: center;
+}
+
+#welcm {
+	width: 50%;
+	height: 50%;
+}

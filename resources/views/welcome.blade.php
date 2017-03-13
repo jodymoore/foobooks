@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Foobooks</title>
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <h1>Welcome To Foobooks</h1>
-</body>
-</html>
+
+@extends('layouts.master')
+
+@section('content')
+    <h1>Welcome!</h1>
+    <img id="welcm" src="images/books.png">
+@endsection
+
+

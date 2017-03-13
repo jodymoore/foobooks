@@ -14,9 +14,15 @@ class BookController extends Controller
   }
 
   /*
-   *  get
+   *  Show
    */
-  public function view($title = null) {
-    return 'you want to view the book '.$title;
+  public function show($title = null) {
+
+    return view('books.show')->with([
+
+          'title' => $title,
+
+      ]);
   }
+  
 }
